@@ -1,0 +1,2 @@
+[15:30:07] "Stualyttle Kirry#2000" in guild "Kneeghub" (636290160329359363): Command raised an exception: TypeError: list indices must be integers or slices, not str
+[15:31:08] "Stualyttle Kirry#2000" in guild "Kneeghub" (636290160329359363): Command "fixvc" is not found
