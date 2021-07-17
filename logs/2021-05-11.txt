@@ -1,5 +1,0 @@
-[13:17:17] "Stualyttle Kirry#2000" in guild "Lyttle Development Server" (831222717793304606): Command raised an exception: AttributeError: 'Context' object has no attribute 'get_guild'
-[13:19:21] "Stualyttle Kirry#2000" in guild "Lyttle Development Server" (831222717793304606): Command raised an exception: NameError: name 'client' is not defined
-[13:20:18] "Stualyttle Kirry#2000" in guild "Lyttle Development Server" (831222717793304606): Command raised an exception: AttributeError: 'Context' object has no attribute 'get_guild'
-[13:20:32] "Stualyttle Kirry#2000" in guild "Lyttle Development Server" (831222717793304606): Command raised an exception: AttributeError: 'Context' object has no attribute 'get_guild'
-[13:28:22] "Stualyttle Kirry#2000" in guild "Lyttle Development Server" (831222717793304606): Command raised an exception: AttributeError: 'NoneType' object has no attribute 'overwrites_for'
