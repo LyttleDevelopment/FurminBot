@@ -15,9 +15,8 @@ class Status(commands.Cog):
 
     @tasks.loop(seconds=20)
     async def change_status(self, client):
-        # await self.client.change_presence(activity=discord.Game(next(self.status)))
         await self.client.change_presence(
-            status=discord.Status.dnd,
+            status=discord.Status.online,
             activity=discord.Activity(
                 name=f"{next(self.status)}", type=next(self.status_nr)
             ),
