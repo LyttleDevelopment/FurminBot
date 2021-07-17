@@ -1,3 +1,14 @@
+# Self assinged:
+__pycache__
+.idea
+*.pyc
+venv
+logs
+.git
+cogs/.DS_Store
+.DS_Store
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

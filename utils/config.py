@@ -5,7 +5,7 @@ class Config(Configurable):
     events_property = EventsProperty()
 
     def __init__(self):
-        file = "config.json"
+        file = "database/config.json"
         super().__init__(self, file, self.events_property)
 
     @property
@@ -35,18 +35,23 @@ class Config(Configurable):
 
     @property
     @events_property
+    def log_channel(self) -> int:
+        return self.try_read_value("log_channel", 0)
+
+    @property
+    @events_property
     def error_channel(self) -> int:
-        return self.try_read_value("error_channel", 833274053271486494)
+        return self.try_read_value("error_channel", 0)
 
     @property
     @events_property
-    def roles(self) -> dict:
-        return self.try_read_value("roles", {})
+    def advanced_logs(self) -> int:
+        return self.try_read_value("advanced_logs", 0)
 
     @property
     @events_property
-    def groups(self) -> dict:
-        return self.try_read_value("groups", {})
+    def main_logs(self) -> int:
+        return self.try_read_value("main_logs", 0)
 
 
 config = Config()
