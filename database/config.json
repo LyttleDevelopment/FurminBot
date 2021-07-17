@@ -1,0 +1,15 @@
+{
+  "prod_token": "ODYxMzQ2MTYyMjg2Nzg4NjI2.YOIdIA.WOxcqqXYNG9toCKCNncfIS8ckS0",
+  "dev_token": "ODMzMDgzMjIxNzc1NzQ1MDc0.YHtLNg.Qtr0ETqSXz01Q6IiMtAY0TqGejM",
+  "status": [
+    "Version 21.28.1"
+  ],
+  "status_nr": [
+    0
+  ],
+  "admin_guild": 831222717793304606,
+  "log_channel": 862731800350162994,
+  "error_channel": 862722277233917992,
+  "advanced_logs": 861344262314524713,
+  "main_logs": 856832351245828116
+}
