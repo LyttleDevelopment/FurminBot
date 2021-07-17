@@ -5,6 +5,8 @@ import discord
 from discord.ext import commands
 from utils.config import config
 from utils.environments import is_production
+from utils.shortcuts import line
+from utils.logger import main_log
 
 print("MAIN: Bot starting, please wait!")
 
