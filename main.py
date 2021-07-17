@@ -11,7 +11,7 @@ print("MAIN: Bot starting, please wait!")
 intents = discord.Intents().default()
 intents.members = True
 
-client: commands.Bot = commands.Bot(command_prefix='.fb', intents=intents)
+client: commands.Bot = commands.Bot(command_prefix='!f', intents=intents)
 client.remove_command('help')
 
 
