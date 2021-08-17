@@ -10,11 +10,11 @@ from utils.logger import main_log
 
 print("MAIN: Bot starting, please wait!")
 
-intents = discord.Intents().default()
-intents.members = True
+intents = discord.Intents.all()
 
-client: commands.Bot = commands.Bot(command_prefix='!f', intents=intents)
-client.remove_command('help')
+client: commands.Bot = commands.Bot(command_prefix="!f ", intents=intents)
+client.remove_command("help")
+
 
 
 def try_cog_action(function):
