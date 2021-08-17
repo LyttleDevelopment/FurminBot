@@ -16,7 +16,6 @@ client: commands.Bot = commands.Bot(command_prefix="!f ", intents=intents)
 client.remove_command("help")
 
 
-
 def try_cog_action(function):
     try:
         function()
