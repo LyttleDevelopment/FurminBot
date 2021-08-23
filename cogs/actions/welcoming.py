@@ -14,6 +14,8 @@ class Welcoming(commands.Cog):
 
     @commands.Cog.listener()
     async def on_member_join(self, member):
+        if member.guild.id != 768870930385469501:
+            return
         welcoming_channel = self.client.get_channel(848670878137057290)
         picture = random.randint(1, 28)
         embed = discord.Embed(title=f"Welcome {member} to the Bestie of Friend's discord server!",
