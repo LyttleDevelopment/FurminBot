@@ -1,15 +1,15 @@
 {
   "prod_token": "ODYxMzQ2MTYyMjg2Nzg4NjI2.YOIdIA.WOxcqqXYNG9toCKCNncfIS8ckS0",
-  "dev_token": "ODYxMzQ2MTYyMjg2Nzg4NjI2.YOIdIA.WOxcqqXYNG9toCKCNncfIS8ckS0",
+  "dev_token": "ODMzMDgzMjIxNzc1NzQ1MDc0.Gu6Wds.Rh-MCAzC9Amjg6pfjSfnGlxemJ0wsr5IEf5Zos",
   "status": [
-    "Version 21.44.4.1"
+    "Version 22.36.1.1"
   ],
   "status_nr": [
     0
   ],
-  "admin_guild": 831222717793304606,
-  "log_channel": 862731800350162994,
-  "error_channel": 862722277233917992,
-  "advanced_logs": 861344262314524713,
-  "main_logs": 856832351245828116
+  "admin_guild": 935875685921210369,
+  "log_channel": 1016373773550760047,
+  "error_channel": 1016378860650115234,
+  "advanced_logs": 1016378872889086075,
+  "main_logs": 1016377553109401732
 }
