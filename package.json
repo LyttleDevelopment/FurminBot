@@ -11,7 +11,7 @@
     "dev:start": "node dist/src/main.js",
     "dev:test": "jest -i",
     "setup": "npm run build && npm run update-commands",
-    "docker:setup": "npm run prisma:generate && npm run build",
+    "docker:setup": "npm run build",
     "docker:build": "docker build -t furmin-bot ."
   },
   "volta": {
